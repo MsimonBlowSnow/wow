@@ -1,0 +1,96 @@
+.four-screen{
+    &>.four-screen-h{
+        padding: 7px 12px 0px;
+        height: 45px;
+        color: #fff;
+        background: url("../images/section2/sprite.png") left 0;
+        &>.tit{
+            float: left;
+            width: 195px;
+            line-height: 36px;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: left;
+        }
+        &>.more{
+            float: right;
+            font-size: 12px;
+            line-height: 36px;
+            a{
+                color: #fff;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+        &>.imgType{
+            float: left;
+            &>.imgType-item{
+                float: left;
+                margin-left: -1px;
+                margin-left: 1px solid #622815;
+                &>a{
+                    display: block;
+                    width: 89px;
+                    height: 38px;
+                    line-height: 38px;
+                    font-size: 14px;
+                    color: #fff;
+                    background: #99612f;
+                }
+                &>a:hover{
+                    background-color: #ffe;
+                    color: #99612f;
+                    // text-decoration: underline;
+                }
+            }
+        }
+    }
+    &>.four-screen-bd{
+        &>.img-lists{
+            margin: 18px -10px -15px;
+            width: 990px;
+            height: 490px;
+            display: flex;
+            flex-wrap: wrap;
+            &>.img-lists-item{
+                height: 225px;
+                margin-bottom: 20px;
+                flex: 1;
+                &>a{
+                    display: block;
+                    height: 225px;
+                    width: 300px; 
+                    position: relative;
+                    margin: 0 auto;
+                    img{
+                        display: block;
+                        
+                    }
+                    &>.mask{
+                        position: absolute;
+                        left: 0px;
+                        bottom: 0px;
+                        z-index: 0;
+                        width: 100%;
+                        height: 30px;
+                        background-color: #000;
+                        opacity: .5;
+                    }
+                    &>.tit{
+                        display: block;
+                        width: 100%;
+                        font-style: 14px;
+                        line-height: 30px;
+                        color: #fff;
+                        position: absolute;
+                        text-align: center;
+                        z-index: 1;
+                        left: 0;
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}

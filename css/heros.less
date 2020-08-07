@@ -1,0 +1,84 @@
+.heros-bottom{
+    &>.five-screen-h{
+        padding: 7px 12px 0px;
+        height: 45px;
+        color: #fff;
+        background: url("../images/section2/sprite.png") left 0;
+        &>.tit{
+            float: left;
+            line-height: 36px;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: left;
+        }
+        &>.more{
+            float: right;
+            font-size: 12px;
+            line-height: 36px;
+            a{
+                color: #fff;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    &>.five-screen-b{
+        &>.gb-tab{
+            width: 970px;
+            height: 100px;
+            padding: 8px 0px 0px 0px;    
+            background: #fcf6d3;
+            border-bottom: 1px solid #99612f;
+            &>li{
+                float: left;
+                width: 8.33%;
+                &>a{
+                    display: inline-block;
+                    margin: 0px auto;
+                    position: relative;
+                    height: 92px;
+                    span:nth-child(1){
+                        display: block;
+                        border: 3px solid #fcf6d3;;
+                        img{
+                            display: block;
+                        }
+                    }
+                    span:nth-child(2){
+                        color: #141414;
+                        text-align: center;
+                        font-size: 12px;
+                        line-height: 18px;
+                    }
+                    i{
+                        position: absolute;
+                        left: 50%;
+                        bottom: 0px;
+                        display: none;
+                        
+                        width: 14px;
+                        transform: translateX(-50%);
+                        height: 14px;
+                        border: 7px solid transparent;
+                        border-bottom-color: #99612f;
+                    }
+                }
+            }
+            &>li:hover{
+                float: left;
+                width: 8.33%;
+                &>a{
+                    span:nth-child(1){
+                        border-color: #ff4800;;
+                    }
+                    span:nth-child(2){
+                        color: #ff4800;
+                    }
+                   
+                }
+            }
+        }
+    }
+   
+}

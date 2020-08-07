@@ -1,0 +1,99 @@
+.footer{
+    width: 1000px;
+    margin: 0 auto;
+    &>.pn-other{
+        background: #37241e;
+        &>.pn-friends{
+            height: 200px;
+            float: left;
+            width: 687px;
+            padding: 12px 0 0 15px;
+            border-right: 1px solid #52351b;
+            background: url(../images/footer/pn-friends.jpg) no-repeat;
+            &>ul{
+                display: flex;
+                flex-wrap: wrap;
+                &>li{
+                    white-space: nowrap;
+                    font-size: 14px;
+                    color: #99612f;
+                    margin: 2px 0px;
+                    &>a{
+                        color: #99612f;
+                    }
+                    &>span{
+                        margin: 0px 8px;
+                        color:#4a2b0f;
+                    }
+                    a:hover{
+                        color: #fcf6d3;
+                        text-decoration: underline;
+                    }
+                }
+                &>.last{
+                    &>a{
+                        color: rgb(51, 204, 102)!important;
+                    }
+                }
+            }
+        }
+        .hd{
+            &>.tit{
+                color: #f6e1aa;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 56px;
+                width: 270px;
+                text-align: left;
+                height: 56px;
+            }
+        }
+        &>.pn-follow{
+            float: right;
+            width: 285px;
+            padding: 12px 15px 0 0;
+            &>.bd{
+                &>.careus{
+                   height: 18px;
+                    margin-bottom: 17px;
+                    &>a{
+                        display: block;
+                        height: 18px;
+                        width: 70px;
+                        background: url("../images/footer/sprite-footer.png") no-repeat left top;
+                    }
+                }
+                &>.info{
+                    color: #99612f;;
+                    text-align: left;
+                    font-size: 12px;
+                    &>.icon-weixin{
+                        display: inline-block;
+                        width: 16px;
+                        height: 16px;
+                        margin: 4px 5px 6px;
+                        vertical-align: bottom;
+                        background: url("../images/footer/sprite-footer.png") no-repeat;
+                        background-position: 0px -25px;
+                    }
+                }
+                &>.QRcode{
+                    margin: -120px 144px;
+                }
+            }
+        }
+    }
+    &>.global-footer{
+        height: 118px;
+        padding: 35px 0px;
+        text-align: center;
+        color: #515151;
+        background-color: transparent;
+        &>a{
+            color: #515151;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
